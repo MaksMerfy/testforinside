@@ -2,7 +2,7 @@
 
 docker repository maksmerfy/testappforinside:latest
 
-Приложение построено с использование Spring Boot, Spring Security и PostgreSQL.
+Приложение построено с использованием Spring Boot, Spring Security и PostgreSQL.
 Адрес сервера базы данных 194.58.101.68.
 На сервере используется PostgreSQL 13.4.
 Основная база данных приложения "forinside". 
@@ -32,7 +32,7 @@ docker repository maksmerfy/testappforinside:latest
 *
     *
         *
-            * { "token": "Сгенеррированный токен" }
+            * { "token": "Сгенерированный токен" }
 *
     *
         * Если пароли не совпадают :
@@ -94,6 +94,5 @@ docker repository maksmerfy/testappforinside:latest
 ## Запуск приложения
 
 * Запуск возможен через idea. 
-* Так же возможен запуск через докер скачав образ с репозитория. Команду для запуска
-использовал docker run --tty --publish 8080:8080 [ИмяОбраза]
+* Так же возможен запуск через докер скачав образ с репозитория. Команда для запуска "docker run --tty --publish 8080:8080 [ИмяОбраза]"
 * Протестировать приложение можно по адресу https://testappforinside.jelastic.regruhosting.ru/
